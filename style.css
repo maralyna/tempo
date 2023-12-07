@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', san-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    
+}
+.caixa-maior{
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100%-100px);
+}
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float:right;
+
+}
+.lupa{
+    width: 20px;
+
+}
+.caixa-media{
+    margin-top: 30px;
+}
+.cidade {
+    color: #f6fa28;
+    font-size: 28px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 20px;
+    color: #bdc01e;
+    margin-top: 20px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.previsao{
+    color:rgb(187, 255, 0);
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    color:rgb(187, 255, 0);
+    margin: 20px;
+}
